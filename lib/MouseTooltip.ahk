@@ -1,10 +1,9 @@
-﻿; Works with AutoHotkey v2
-; Eg.,
+﻿; Creates a tooltip relative to the mouse position and makes the tooltip follow the mouse cursor.
 ;
+; Usage Eg.,
 ;  toolTip := MouseTooltip.new("Press (Alt + h) to show/hide this tooltip.")
 ;  toolTip2 := MouseTooltip.new("Second text.", -20, -40)
 ;  toggle := False
-;
 ;  !h::
 ;    toggle := !toggle
 ;    If (toggle) {
@@ -15,6 +14,8 @@
 ;        toolTip2.hide()
 ;        }
 ;  return
+;
+; requires AutoHotkey v2
 ;========================================== TIP ==========================================
 class MouseTooltip
 {
